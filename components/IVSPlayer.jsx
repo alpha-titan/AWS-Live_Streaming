@@ -100,7 +100,7 @@ function IVSPlayer({ src, handleQuizEvent }) {
           rel="stylesheet"
         />
       </Head>
-        <div style={{width: "640px",height: "480px",margin: "15px"}} className="video-container">
+        <div style={{width: "100%",height: "100%",margin: "15px"}} className="video-container">
         <video
           id="amazon-ivs-videojs"
           className="video-js vjs-4-3 vjs-big-play-centered"
